@@ -1,0 +1,30 @@
+{
+  "name": "fn-js",
+  "version": "1.0.0",
+  "description": "1. Initiate a node project with default settings\r    npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "start": "node public/scripts/bundle.js",
+    "serve": "webpack serve --mode development",
+    "build": "webpack build",
+    "test": "jest --watchAll",
+    "build:start":"webpack build && node public/scripts/bundle.js",
+    "build:test":"webpack build && jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "jest": "^27.0.6",
+    "jest-cli": "^27.0.6",
+    "jsdom": "^16.6.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
