@@ -16,13 +16,16 @@
 
             npm install --save-dev webpack webpack-cli
 
+Install jest-environment-jsdom
+        npm i jest-environment-jsdom
 5.  Create jest.config.js
 6.  Create webpack.config.js
 7.  Add a babel.config.js
-8.  Create public, public/scripts, src, src/tests folders
-9.  Create index.js in src
-10. Create index.html in public
-11. Install webpack devserver
+8.  
+9.  Create public, public/scripts, src, src/tests folders
+10.  Create index.js in src
+11. Create index.html in public
+12. Install webpack devserver
 
                 npm install --save-dev webpack-dev-server
 
