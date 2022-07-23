@@ -4,6 +4,7 @@
   "description": "1. Initiate a node project with default settings\r    npm init -y",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --mode=development",
     "serve": "webpack serve --mode development",
     "build": "webpack build --mode development",
     "test": "jest --watchAll",
