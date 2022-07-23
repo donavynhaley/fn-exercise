@@ -6,7 +6,7 @@
 
 2.  Install test dependencies
 
-    npm install --save-dev jest jest-cli jsdom
+        npm install --save-dev jest jest-cli jsdom
 
 3.  Install Babel
 
@@ -18,7 +18,7 @@
 
 5.  Create jest.config.js
 6.  Create webpack.config.js
-7.  Add a .babelrc.js
+7.  Add a babel.config.js
 8.  Create public, public/scripts, src, src/tests folders
 9.  Create index.js in src
 10. Create index.html in public
