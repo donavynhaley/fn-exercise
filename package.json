@@ -4,12 +4,11 @@
   "description": "1. Initiate a node project with default settings\r    npm init -y",
   "main": "index.js",
   "scripts": {
-    "start": "node public/scripts/bundle.js",
     "serve": "webpack serve --mode development",
-    "build": "webpack build",
+    "build": "webpack build --mode development",
     "test": "jest --watchAll",
-    "build:start":"webpack build && node public/scripts/bundle.js",
-    "build:test":"webpack build && jest --watchAll"
+    "build:start": "webpack build --mode development && webpack serve --mode development",
+    "build:test": "webpack build --mode development && jest --watchAll"
   },
   "keywords": [],
   "author": "",
