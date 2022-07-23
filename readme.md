@@ -49,3 +49,7 @@
 1. To run test
 
         npm test
+        
+1. To run dev server with live reload
+
+        npm run dev
